@@ -16,8 +16,8 @@
   "author": "YanRong",
   "license": "MIT",
   "dependencies": {
-    "fetch-http-client": "^1.0.3",
-    "lodash": "^4.17.4",
+    "fetch-http-client": "^1.0.1",
+    "lodash": "^4.13.1",
     "path": "^0.12.7",
     "hoist-non-react-statics": "^1.2.0",
     "redux": "^3.5.2",
