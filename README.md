@@ -6,12 +6,19 @@ Provide some functions that handle data
 Use npm to install: `npm install --save util-toolkit`
 
 ###API
+
 ####getExtraMenu
+
 **params**:
+
 menuData: Array
+
 stairMenu: String
+
 secondMenu: String
+
 type: String
+
 **returns**  {Array}
 
 ```javascript
@@ -32,10 +39,15 @@ let menuData = [{
 
 
 ####getOprMenu
+
 **params**:
+
 status: String
+
 oprsMap: Array
+
 menuMap: Array
+
 **returns**  {Array}
 
 ```javascript
@@ -61,8 +73,11 @@ let oprsMap = [
 ```
 
 ####classifyProject
+
 **params**:
+
 preProjectList: Array
+
 **returns**  {Array}
 
 ```javascript
