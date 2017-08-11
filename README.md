@@ -5,13 +5,13 @@ Provide some functions that handle data
 ## Get Started
 Use npm to install: `npm install --save util-toolkit`
 
-##API
-###getExtraMenu
+###API
+####getExtraMenu
 **params**:
-	menuData: Array
-	stairMenu: String
-	secondMenu: String
-	type: String
+menuData: Array
+stairMenu: String
+secondMenu: String
+type: String
 **returns**  {Array}
 
 ```javascript
@@ -31,11 +31,11 @@ let menuData = [{
 ```
 
 
-###getOprMenu
+####getOprMenu
 **params**:
-	status: String
-	oprsMap: Array
-	menuMap: Array
+status: String
+oprsMap: Array
+menuMap: Array
 **returns**  {Array}
 
 ```javascript
@@ -60,9 +60,9 @@ let oprsMap = [
 	 getExtraMenu('ok', oprsMap, menuMap);
 ```
 
-###classifyProject
+####classifyProject
 **params**:
-	preProjectList: Array
+preProjectList: Array
 **returns**  {Array}
 
 ```javascript
